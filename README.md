@@ -16,8 +16,6 @@ Art-Across-India/ ├── css/ │ └── style.css ├── images/ │ �
 
 ## 🚀 Getting Started
 
-## 🚀 Getting Started
-
 ### 🔧 Prerequisites
 No installation required! This is a front-end-only project.
 
