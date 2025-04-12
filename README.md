@@ -36,21 +36,32 @@ Art-Across-India/ ├── app.py # Main Flask app ├── static/ # CSS, JS,
 
 git clone https://github.com/vaibhavkhatik/Art-Across-India.git
 cd Art-Across-India
-2. Create Virtual Environment (Optional but Recommended)
+
+### 2. Create Virtual Environment (Optional but Recommended)
 
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-3. Install Dependencies
+### 3. Install Dependencies
 
 pip install -r requirements.txt
 If there's no requirements.txt, just install Flask:
-
 pip install flask
 
-4. Run the App
+### 4. Run the App
 
 python app.py
 
-Then visit http://localhost:5000 in your browser.
+### Then visit http://localhost:5000 in your browser. 
+
+### 👨‍🎨 Inspiration
+This project is inspired by the diverse and vibrant art traditions of India, with a mission to make them more accessible to digital audiences.
+
+### 📬 Contact
+For queries or collaborations, please contact: [your-email@example.com]
+
+### 📝 License
+This project is licensed under the MIT License.
+
+
 
