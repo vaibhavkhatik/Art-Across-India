@@ -1,36 +1,56 @@
-# Art Across India 🎨🇮🇳
+# 🎨 Art Across India — Flask Web Application
 
-Art Across India is a web-based platform designed to showcase diverse Indian art forms, artists, and exhibitions. The project highlights the rich heritage of Indian art by providing users with access to information and galleries for various traditional and modern artworks.
+**Art Across India** is a Flask-powered web application that showcases India's rich artistic and cultural heritage. The platform allows users to explore various art forms, events, and artists through a simple and elegant web interface.
 
-## 🌟 Features
+---
 
-- Home page with featured artworks
-- Artists showcase with images and descriptions
-- Events page for art exhibitions and festivals
-- Contact form for inquiries
-- Static pages built using HTML, CSS, and Bootstrap
+## 🚀 Features
 
-## 📁 Project Structure
+- 🖼️ Dynamic pages using Flask and Jinja2
+- 👨‍🎨 Artist and event information stored in the backend
+- 📁 Structured templates and static assets
+- 💡 Simple, clean UI with Bootstrap styling
 
-Art-Across-India/ ├── css/ │ └── style.css ├── images/ │ └── [all image assets used] ├── js/ │ └── script.js ├── about.html ├── artists.html ├── contact.html ├── events.html ├── index.html └── README.md
+---
 
-## 🚀 Getting Started
+## 🛠️ Tech Stack
 
-### 🔧 Prerequisites
-No installation required! This is a front-end-only project.
+- Python 3
+- Flask
+- Jinja2 (HTML templating)
+- HTML, CSS, JavaScript
+- Bootstrap 4/5
 
-### 💡 Run Locally
+---
 
-1. **Clone this repo**:
-   ```bash
-   git clone https://github.com/yourusername/Art-Across-India.git
+## 📁 Folder Structure
+
+Art-Across-India/ ├── app.py # Main Flask app ├── static/ # CSS, JS, Images ├── templates/ # HTML templates (Jinja2) │ ├── index.html │ ├── about.html │ └── contact.html ├── requirements.txt # Dependencies (optional) └── README.md
 
 
-### 👨‍🎨 Inspiration
-This project is inspired by the diverse and vibrant art traditions of India, with a mission to make them more accessible to digital audiences.
+---
 
-### 📬 Contact
-For queries or collaborations, please contact: [vaibhavkhatik821@gmail.com.com]
+## ⚙️ How to Run Locally
 
-### 📝 License
-This project is licensed under the MIT License.
+### 1. Clone the Repo
+
+git clone https://github.com/vaibhavkhatik/Art-Across-India.git
+cd Art-Across-India
+2. Create Virtual Environment (Optional but Recommended)
+
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+3. Install Dependencies
+
+pip install -r requirements.txt
+If there's no requirements.txt, just install Flask:
+
+pip install flask
+
+4. Run the App
+
+python app.py
+
+Then visit http://localhost:5000 in your browser.
+
