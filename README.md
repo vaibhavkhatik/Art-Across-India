@@ -35,17 +35,21 @@ Art-Across-India/ ├── app.py # Main Flask app ├── static/ # CSS, JS,
 ### 1. Clone the Repo
 
 git clone https://github.com/vaibhavkhatik/Art-Across-India.git
+
 cd Art-Across-India
 
 ### 2. Create Virtual Environment (Optional but Recommended)
 
 python -m venv venv
+
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 ### 3. Install Dependencies
 
 pip install -r requirements.txt
+
 If there's no requirements.txt, just install Flask:
+
 pip install flask
 
 ### 4. Run the App
