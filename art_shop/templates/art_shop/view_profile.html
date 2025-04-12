@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        {% load static %}
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="{%static 'art_shop/view_profile.css' %}">
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    
+  <div class="container">
+      <div class="row">
+          <div class="col-md-9">
+              <div class="row">
+                  <div class="col-md-4">
+                      <img src="/media/{{user.profile_image}}" alt="">
+                  </div>
+                  <div class="col-md-8 mt-5 col-12">
+                      <h4>Name  &nbsp &nbsp &nbsp : {{user.first_name}} {{user.last_name}} </h4>
+                      <h4>Email &nbsp &nbsp &nbsp &nbsp: {{user.email}}</h4>
+                      <h4>Contact &nbsp &nbsp: {{user.contact_tel}}</h4>
+                      <h4>Address &nbsp &nbsp: {{user.address}}</h4>
+                      <h4>Gender &nbsp &nbsp &nbsp: {{user.gender}}</h4>
+                      <h4>User_type &nbsp: {{user.user_type}}</h4>
+                      <h4>Status &nbsp &nbsp &nbsp &nbsp: Active</h4>
+                      <a href="/art_shop/edit_profile/{{user.email}}/" class="edit_rofile btn btn-outline-info">Edit profile</a>
+                      <a href="/art_shop/" class="logout btn btn-outline-warning">Logout</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  </body>
+</html>

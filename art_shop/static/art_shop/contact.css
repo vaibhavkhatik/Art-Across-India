@@ -1,0 +1,24 @@
+.body{
+    background-color: rgb(248, 223, 203);
+}
+.contact{
+    width:500px;
+    height: 500px;
+    margin: auto;
+    margin-top: 100px;
+   
+
+
+
+}
+#submit{
+    float: right;
+    clear: both;
+    margin: 15px 15px;
+}
+
+@media screen and (max-width:900px){
+            .contact{
+            width:100%;
+            }
+}

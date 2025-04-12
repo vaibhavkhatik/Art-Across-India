@@ -1,0 +1,71 @@
+.mm{
+    height: fit-content;
+    background-color: rgb(190, 151, 187);
+    min-height: 180px;
+    margin-top: 20px;
+    border:2px solid black;
+    border-radius:50px;
+    color: rgb(10, 10, 10);
+     box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+}
+.art{
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+
+}
+.img-fluid{
+    width: 250px;
+    height: 250px;
+   
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-md-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-md-8{
+    padding: 20px;
+}
+.btn a{
+    font-size: 18px;
+    padding-top: 50px;
+    text-decoration: none;
+    color: rgb(4, 85, 31);
+}
+.btn a:hover{
+    color: rgb(29, 28, 28);
+}
+.product_name{
+   color: rgb(56, 53, 53);
+}
+.myarts{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    width: 100%;
+    background-color: rgb(116, 221, 212);
+    border-radius: 50px;
+}
+.myarts h1{
+    text-align: center;
+    
+}

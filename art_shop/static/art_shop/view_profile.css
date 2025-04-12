@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(123, 171, 194);
+}
+img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.col-md-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-md-9{
+    border: black 2px solid;
+    padding: 50px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 150px;
+    background-color: rgb(238, 234, 234);
+}
+.heading{
+    width: 500px;
+    background-color: blue;
+    position: fixed;
+}
+h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(37, 35, 35);
+}
+
+@media screen and (max-width:500px) {
+    
+}

@@ -1,0 +1,55 @@
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.img-fluid{
+    width: 200px;
+    height: 200px;
+}
+.profile-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-md-8{
+
+}
+body{
+    background-image: url('prof');
+}
+#text{
+    height: 150px;
+
+}
+.ps{
+    padding: 10px;
+    box-shadow:  green 10px 10px;
+    border-radius: 30px;
+    border: blanchedalmond 3px solid;
+    background-color: white;
+}
+.section1{
+   
+   height: 100vh;
+   
+}
+
+
+
+p{
+    font-size: 22px;
+}
+.profile1{
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+
+}
+body{
+    background-image: urL('contact_to_artist.jpeg');
+    background-size:cover;
+    background-position:center;
+
+}

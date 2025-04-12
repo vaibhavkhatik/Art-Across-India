@@ -1,0 +1,45 @@
+
+{% extends 'art_shop/bsics.html' %}
+{% load static %}
+{% block head %}
+<link rel="stylesheet" href="{%static 'art_shop/productView.css'%}">
+{% endblock %}
+
+
+
+
+
+  {% block body %}
+     <div class="container">
+    {% for prod in myArt %}
+        <div class="row">
+        <div class="img1 col-md-6">
+           <img src="/media/{{prod.image}} " class="img-fluid" alt="">
+        </div>
+        <div class="col-md-6 d-flex  flex-column ">
+        <div class="prod m-2">
+            <h4 class="product_name"><span>Product Name: </span>{{prod.art_name}}</h4>
+        </div>
+        <div class="category m-2">
+            <h5><span>Product Category : </span>{{prod.art_category}}</h5>
+        </div>
+        <div class="sub_category  m-2">
+            <h5><span>Product Price : </span>Rs {{prod.art_price}}</h5>
+        </div>
+        <div class="description m-2">
+            <p><span>Product Description : </span><br>{{prod.art_descripion}}</p>
+        </div>
+            <div>
+          <button class="btn btn-outline-warning m-1">Delete</button>
+          <button class="btn btn-outline-success m-1">Edit</button>
+        </div>
+    </div>
+    </div>
+        <hr>
+         {% endfor %}
+    </div>
+
+
+
+
+  {% endblock %}
