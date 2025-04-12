@@ -61,11 +61,6 @@ python app.py
 ### 👨‍🎨 Inspiration
 This project is inspired by the diverse and vibrant art traditions of India, with a mission to make them more accessible to digital audiences.
 
-### 📬 Contact
-For queries or collaborations, please contact: [your-email@example.com]
-
-### 📝 License
-This project is licensed under the MIT License.
 
 
 
