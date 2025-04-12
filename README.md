@@ -16,16 +16,16 @@ Art-Across-India/ ├── css/ │ └── style.css ├── images/ │ �
 
 ## 🚀 Getting Started
 
-### Prerequisites
+## 🚀 Getting Started
 
-- A modern web browser (Chrome, Firefox, Edge, etc.)
+### 🔧 Prerequisites
+No installation required! This is a front-end-only project.
 
-### Running Locally
+### 💡 Run Locally
 
-1. Clone the repository:
-
-git clone https://github.com/vaibhavkhatik/Art-Across-India.git
-Open index.html in your browser to start exploring the website.
+1. **Clone this repo**:
+   ```bash
+   git clone https://github.com/yourusername/Art-Across-India.git
 
 
 ### 👨‍🎨 Inspiration
