@@ -1,27 +1,41 @@
-ART Across India
+# Art Across India 🎨🇮🇳
 
-ART Across India is a platform designed to connect artists and art lovers across India. The platform allows artists to create a shop and sell their artwork, while art enthusiasts can interact through comments, likes, and feedback.
+Art Across India is a web-based platform designed to showcase diverse Indian art forms, artists, and exhibitions. The project highlights the rich heritage of Indian art by providing users with access to information and galleries for various traditional and modern artworks.
 
-Features
+## 🌟 Features
 
-Artist shop creation and art listing
+- Home page with featured artworks
+- Artists showcase with images and descriptions
+- Events page for art exhibitions and festivals
+- Contact form for inquiries
+- Static pages built using HTML, CSS, and Bootstrap
 
-User interaction through comments, likes, and feedback
+## 📁 Project Structure
 
-Secure authentication and user profiles
+Art-Across-India/ ├── css/ │ └── style.css ├── images/ │ └── [all image assets used] ├── js/ │ └── script.js ├── about.html ├── artists.html ├── contact.html ├── events.html ├── index.html └── README.md
 
-Responsive design for seamless user experience
+## 🚀 Getting Started
 
-Technologies Used
+### Prerequisites
 
-Frontend
+- A modern web browser (Chrome, Firefox, Edge, etc.)
 
-HTML, CSS, JavaScript
+### Running Locally
 
-Bootstrap for responsive design
+1. Clone the repository:
 
-Backend
+```bash
+git clone https://github.com/vaibhavkhatik/Art-Across-India.git
+Open index.html in your browser to start exploring the website.
 
-Python, Django (for web framework)
+📷 Screenshots
+You can add screenshots of the homepage, artist page, and event sections here to showcase UI.
 
-MySQL (for database management)
+👨‍🎨 Inspiration
+This project is inspired by the diverse and vibrant art traditions of India, with a mission to make them more accessible to digital audiences.
+
+📬 Contact
+For queries or collaborations, please contact: [vaibhavkhatik821@gmail.com.com]
+
+📝 License
+This project is licensed under the MIT License.
